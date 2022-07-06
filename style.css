@@ -37,8 +37,10 @@
 
 .heading{
     text-align: center;
+    
 }
 .para{
+    font-size:17px;
     text-align: center;
     justify-content: center;
 }
@@ -82,6 +84,8 @@
   
 }
 .input{
+    text-align: center;
+    font-size: 18px;
     width:45%;
     border:none;
     border-bottom: 1px solid gray;
@@ -109,6 +113,7 @@
     padding: 50px 30px 30px 50px;
     margin-right: 5%;
     margin-left: 5%;
+    
 }
 
 .card1{
