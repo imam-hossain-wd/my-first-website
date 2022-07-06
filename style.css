@@ -3,21 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-html,body{
-    height: 100%;
-}
-
 .banner{
-    background-image: url(images/donation10.jpg);
-    background-repeat: no-repeat;
-    background-position:center ;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.599), rgba(0, 0, 0, 0.354)), url(images/donation5.jpg);
     background-size: cover;
-    height:100%;
-    margin-bottom: 100px;
+    background-repeat:no-repeat;
+    height:400px;
+}
 
+.banner-description{
+    text-align: center;
+    /* margin-top:200px; */
+    margin-bottom: 100px;
+    color:white;
+    position:absolute;
+    top:25%;
+    left:30%;
+}
+.first-ancor{
+    text-decoration: none;
+    padding:10px;
+    color:#fff;
+    background-color:orangered;
+    
 
 }
+
+
+
+
+
+
+
 .heading{
     text-align: center;
 }
@@ -25,11 +41,7 @@ html,body{
     text-align: center;
     justify-content: center;
 }
-.banner-description{
-    text-align: center;
-    color:white;
-    
-}
+
 
 .ancor-design{
     margin-top:20px;
@@ -130,12 +142,29 @@ html,body{
     justify-content: space-evenly;
 }
 .section5{
+    
+    margin-left:400px;
     text-align: center;
     background-color:#FBF9AF;
-    width:500px;
+    width:600px;
     height:100px;
-    padding:20px;
+    padding:30px;
     margin-top:100px;
+}
+#email-input{
+    border:none;
+    padding: 10px 30px;
+    
+
+}
+.ancor2{
+    color:white;
+    background-color:orangered;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius:5px;
+    font-weight:700px;
+
 }
 .footer{
     margin-top:100px;
