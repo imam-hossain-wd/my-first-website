@@ -1,0 +1,2 @@
+orange: #FF5959;
+halka holud: FFF4D6;

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.banner{
+    background-image: url(images/donation10.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    height:100%;
+    margin-bottom: 100px;
+
+
+}
+.heading{
+    text-align: center;
+}
+.para{
+    text-align: center;
+    justify-content: center;
+}
+.banner-description{
+    text-align: center;
+    color:white;
+    
+}
+
+.ancor-design{
+    margin-top:20px;
+    text-decoration: none;
+    background-color: orangered;
+    color:white;
+    padding:10px
+   
+}
+.second-heading{
+    text-align: center;
+}
+.first-item{
+    width:120px;
+    height:100px;
+    background-color: orangered;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    border-radius:10px;
+    
+    
+}
+
+.first-item h3{
+    margin-top:30px;
+    
+}
+
+.second-section{
+    display: flex;
+    justify-content:space-evenly;
+    width:50%;
+    margin-top:80px;
+    margin-left:320px;
+    margin-bottom: 70px;
+  
+}
+.input{
+    width:45%;
+    border:none;
+    border-bottom: 1px solid gray;
+   
+}
+.amount{
+    text-align: center;
+}
+.btn{
+    background-color:orangered;
+    padding:10px;
+    color:white;
+    border-radius: 5px;
+    box-shadow:10px 10px 30px gray;
+    font-size:15px;
+    font-weight:bold;
+}
+.card{
+    width:300px;
+    height:250px;
+    background-color: #4F9DA6;
+    border-radius: 10px;
+    margin-top:50px;
+}
+.card1{
+    background-color: #FF5959;
+    box-shadow:10px 10px 30px gray;
+}
+.card2{
+    background-color: green;
+    box-shadow:10px 10px 30px gray;
+}
+.card3{
+    background-color: blueviolet;
+    box-shadow:10px 10px 20px gray;
+}
+
+.card-item{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
