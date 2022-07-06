@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
 }
 .banner{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.599), rgba(0, 0, 0, 0.354)), url(images/donation5.jpg);
@@ -12,7 +14,6 @@
 
 .banner-description{
     text-align: center;
-    /* margin-top:200px; */
     margin-bottom: 100px;
     color:white;
     position:absolute;
@@ -98,13 +99,18 @@
     font-size:15px;
     font-weight:bold;
 }
+
+
 .card{
-    width:300px;
-    height:250px;
-    background-color: #4F9DA6;
+    width: 30%;
+    height: 340px;
+    background-color: aquamarine;
     border-radius: 10px;
-    margin-top:50px;
+    padding: 50px 30px 30px 50px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
+
 .card1{
     background-color: #FF5959;
     box-shadow:10px 10px 30px gray;
@@ -117,6 +123,7 @@
     background-color: blueviolet;
     box-shadow:10px 10px 20px gray;
 }
+
 
 .card-item{
     display: flex;
